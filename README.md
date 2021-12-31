@@ -9,7 +9,7 @@
 > You can calculate up to 6 points after the decimal point.<br/>
 ---
 ### HOW TO USE
-> #### IMPORT EN from 'extendnumber'
+> #### import EN from 'extendnumber'
 - EN.add(value1,value2)
 - EN.sub(value1,value2)
 - EN.div(value1,value2)
@@ -43,7 +43,7 @@ EN.add/sub/mul/div(value1, value2)
 > 해당 라이브러리는 IE11, Edge, Chrome, FireFox 까지 크로스 브라우징을 지원합니다.<br/>
 ---
 ### HOW TO USE
-> #### IMPORT EN from 'extendnumber'
+> #### import EN from 'extendnumber'
 - EN.add(value1,value2)
 - EN.sub(value1,value2)
 - EN.div(value1,value2)
