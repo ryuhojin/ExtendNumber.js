@@ -1,0 +1,31 @@
+{
+  "name": "extendnumber",
+  "version": "1.0.0",
+  "description": "Use it when you want to perform integer and real number",
+  "main": "ExtendNumber.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryuhojin/ExtendNumber.js.git"
+  },
+  "keywords": [
+    "number",
+    "math",
+    "real",
+    "number",
+    "integer",
+    "floor",
+    "ceil",
+    "round",
+    "add",
+    "mul",
+    "div",
+    "sub",
+    "toFixed"
+  ],
+  "author": "ryuhojin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryuhojin/ExtendNumber.js/issues"
+  },
+  "homepage": "https://github.com/ryuhojin/ExtendNumber.js#readme"
+}
