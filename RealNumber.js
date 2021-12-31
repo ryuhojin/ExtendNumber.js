@@ -128,3 +128,5 @@ RealNumber.prototype.div = function (value1, value2) {
 };
 
 var RN = new RealNumber();
+
+export default RN;
