@@ -8,7 +8,7 @@
 > You can use this library IE11, Chrome, Firefox, Edge
 
 ---
-#### (Before -> After RealNumber.js
+#### Before -> After RealNumber.js
 
 RN.floor/ceil/round(value,pointPosition)
 
@@ -36,7 +36,7 @@ RN.add/sub/mul/div(value1, value2)
 > 해당 라이브러리는 IE11, Edge, Chrome, FireFox 까지 크로스 브라우징을 지원합니다
 
 ---
-#### (Before -> After RealNumber.js
+#### Before -> After RealNumber.js
 
 RN.floor/ceil/round(value,pointPosition)
 
