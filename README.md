@@ -1,6 +1,6 @@
 # RealNumber.js
 ---
-> ####RealNumber.js<br/>
+> #### RealNumber.js<br/>
 > Use it when you want to perform integer and real number arithmetic.<br/>
 > The decimal error(IEEE 754) problem has been removed.<br/>
 > You can ceil, round, floor perform using this library.<br/>
@@ -28,7 +28,7 @@ RN.add/sub/mul/div(value1, value2)
 
 # RealNumber.js
 ---
-> ####RealNumber.js<br/>
+> #### RealNumber.js<br/>
 > RealNumberJS 라이브러리를 통해서 정수와 실수의 연산을 정확하게 해보세요.<br/>
 > 웹환경에서 부동소수점 문제를 정확하게 해결한 라이브러리입니다.<br/>
 > 해당 라이브러리는 올림, 내림, 반올림 연산을 정수를 포함한 실수에서 사용할 수 있습니다.<br/>
