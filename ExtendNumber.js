@@ -1,9 +1,10 @@
-function RealNumber() {}
+function ExtendNumber() {}
 
-RealNumber.prototype.ceil = function (value, point) {
+ExtendNumber.prototype.ceil = function (value, point) {
   var result = value;
   if (point) {
     var _pow = Math.pow(10, point);
+    
     if (point < 0) {
       result = Number(
         (Math.ceil(value * _pow) / _pow).toString().split(".")[0]
@@ -17,10 +18,11 @@ RealNumber.prototype.ceil = function (value, point) {
   return result;
 };
 
-RealNumber.prototype.floor = function (value, point) {
+ExtendNumber.prototype.floor = function (value, point) {
   var result = value;
   if (point) {
     var _pow = Math.pow(10, point);
+
     if (point < 0) {
       result = Number(
         (Math.floor(value * _pow) / _pow).toString().split(".")[0]
@@ -34,7 +36,7 @@ RealNumber.prototype.floor = function (value, point) {
   return result;
 };
 
-RealNumber.prototype.round = function (value, point) {
+ExtendNumber.prototype.round = function (value, point) {
   var result = value;
   if (point) {
     var _pow = Math.pow(10, point);
@@ -52,7 +54,7 @@ RealNumber.prototype.round = function (value, point) {
   return result;
 };
 
-RealNumber.prototype.add = function (value1, value2) {
+ExtendNumber.prototype.add = function (value1, value2) {
   var _value1Arr = value1.toString().split(".");
   var _value2Arr = value2.toString().split(".");
 
@@ -71,7 +73,7 @@ RealNumber.prototype.add = function (value1, value2) {
   }
 };
 
-RealNumber.prototype.sub = function (value1, value2) {
+ExtendNumber.prototype.sub = function (value1, value2) {
   var _value1Arr = value1.toString().split(".");
   var _value2Arr = value2.toString().split(".");
 
@@ -90,14 +92,12 @@ RealNumber.prototype.sub = function (value1, value2) {
   }
 };
 
-RealNumber.prototype.mul = function (value1, value2) {
+ExtendNumber.prototype.mul = function (value1, value2) {
   var _value1Arr = value1.toString().split(".");
-
   var _value2Arr = value2.toString().split(".");
 
   if (_value1Arr[1] || _value2Arr[1]) {
     var _val1Len = _value1Arr[1] ? _value1Arr[1].length : 0;
-
     var _val2Len = _value2Arr[1] ? _value2Arr[1].length : 0;
 
     return (
@@ -110,13 +110,14 @@ RealNumber.prototype.mul = function (value1, value2) {
   }
 };
 
-RealNumber.prototype.div = function (value1, value2) {
+ExtendNumber.prototype.div = function (value1, value2) {
   var _value1Arr = value1.toString().split(".");
   var _value2Arr = value2.toString().split(".");
 
   if (_value1Arr[1] || _value2Arr[1]) {
     var _val1Len = _value1Arr[1] ? _value1Arr[1].length : 0;
     var _val2Len = _value2Arr[1] ? _value2Arr[1].length : 0;
+
     return (
       Number((value1 * Math.pow(10, _val1Len)).toFixed()) /
       Number((value2 * Math.pow(10, _val2Len)).toFixed()) /
@@ -127,6 +128,6 @@ RealNumber.prototype.div = function (value1, value2) {
   }
 };
 
-var RN = new RealNumber();
+var EN = new ExtendNumber();
 
-export default RN;
+export default EN;
