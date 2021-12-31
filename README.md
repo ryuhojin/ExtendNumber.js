@@ -1,32 +1,54 @@
 # RealNumber.js
 ---
+> RealNumber.js
+> Use it when you want to perform integer and real number arithmetic.
+> The decimal error(IEEE 754) problem has been removed.
+> You can ceil, round, floor perform using this library
+> You can perform integer and real number with add, sub, multiple, divider 
+> You can use this library IE11, Chrome, Firefox, Edge
 
-> 수 연산을 위한 순수 js library(IE11, Chrome, Edge, Firefox 크로스 브라우징)
->
-> 올림/반올림/내림 (정수 , 실수(소수점 단위)) 가능
->
-> 덧셈/뺄셈/곱셈/나눗셈 (부동소수점 오차 교정) ex)3.3499999->3.35로 표기 되게수정
+---
+#### (Before -> After RealNumber.js
+
+RN.floor/ceil/round(value,pointPosition)
+
+- Math.floor(1.33) => 1 / RN.floor(1.33,1) => 1.3, RN.floor(1.33) => 1
+- Math.ceil(1.33) => 2 / RN.ceil(1.33,1) => 1.4, RN.ceil(1.3) => 2
+- Math.round(1.53) => 2 / RN.round(1.55,1) => 1.6, RN.round(1.55) => 2
+
+---
+
+RN.add/sub/mul/div(value1, value2)
+
+- 1.35 + 0.1 => 1.450000000002 / RN.add(1.35+0.1) => 1.45 / RN.add(1.2,1) => 2.2
+- 1.2 - 0.1 => 1.09999999999 / RN.sub(1.2,0.1) => 1.1 / RN.sub(1.2,1) => 0.2
+- 1.35 * 1.1 => 1.4850000000003 / RN.mul(1.35,1.1) => 1.485
+- 4.3 / 1.1 => 3.909090909090987 / RN.div(4.3,1.1) => 3.9090909090909
 
 
+# RealNumber.js
+---
+> RealNumber.js
+> RealNumberJS 라이브러리를 통해서 정수와 실수의 연산을 정확하게 해보세요.
+> 웹환경에서 부동소수점 문제를 정확하게 해결한 라이브러리입니다.
+> 해당 라이브러리는 올림, 내림, 반올림 연산을 정수를 포함한 실수에서 사용할 수 있습니다.
+> 해당 라이브러리를 통해서 정수 및 실수의 덧셈, 뺄셈, 곱셈, 나눗셈 연산을 정확하게 수행하세요
+> 해당 라이브러리는 IE11, Edge, Chrome, FireFox 까지 크로스 브라우징을 지원합니다
 
-### 1. 사용법
+---
+#### (Before -> After RealNumber.js
 
-### 올림 / 반올림 / 내림 연산
+RN.floor/ceil/round(value,pointPosition)
 
-> #### 내림연산 : RN.floor(3.3)=>3, RN.floor(1.33,1) 소수점 한자리 버림=>1.3
->
-> #### 올림연산 : RN.ceil(3.3) =>4, RN.ceil(1.33,1) 소수점 한자리 올림=>1.4
->
-> #### 반올림 : RN.round(5.5) => 6, RN.round(1.35,1) 소수점 한자리 반올림=>1.4
+- Math.floor(1.33) => 1 / RN.floor(1.33,1) => 1.3, RN.floor(1.33) => 1
+- Math.ceil(1.33) => 2 / RN.ceil(1.33,1) => 1.4, RN.ceil(1.3) => 2
+- Math.round(1.53) => 2 / RN.round(1.55,1) => 1.6, RN.round(1.55) => 2
 
-### 사칙연산
+---
 
-> #### 덧셈 RN.add(1,2)=>3 / RN.add(1.2,1)=>2.2 / RN.add(1.2,1.1)=>2.3
->
-> #### 뺄셈 RN.sub(2,1)=>1 / RN.sub(2.1,1)=>1.1 / RN.sub(2.1,1,1)=>1
->
-> #### 곱셈 RN.mul(2,1)=>2 / RN.mul(1.35,1.1)=>1.485
->
-> #### 나눗셈 RN.div(2,1)=>2 / RN.div(1.35,1.1)=>1.227272727...
+RN.add/sub/mul/div(value1, value2)
 
-부동소수점 오차 제거 및 기존의 Number객체와 Math객체에 없던것들과 있던것들을 합친 라이브러리
+- 1.35 + 0.1 => 1.450000000002 / RN.add(1.35+0.1) => 1.45 / RN.add(1.2,1) => 2.2
+- 1.2 - 0.1 => 1.09999999999 / RN.sub(1.2,0.1) => 1.1 / RN.sub(1.2,1) => 0.2
+- 1.35 * 1.1 => 1.4850000000003 / RN.mul(1.35,1.1) => 1.485
+- 4.3 / 1.1 => 3.909090909090987 / RN.div(4.3,1.1) => 3.9090909090909
