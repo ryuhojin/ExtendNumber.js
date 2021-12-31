@@ -6,6 +6,7 @@
 > You can ceil, round, floor perform using this library.<br/>
 > You can perform integer and real number with add, sub, multiple, divider .<br/>
 > You can use this library IE11, Chrome, Firefox, Edge.<br/>
+> You can calculate up to 6 points after the decimal point.<br/>
 
 ---
 #### Before -> After RealNumber.js
@@ -25,6 +26,8 @@ RN.add/sub/mul/div(value1, value2)
 - 1.35 * 1.1 => 1.4850000000003 / RN.mul(1.35,1.1) => 1.485
 - 4.3 / 1.1 => 3.909090909090987 / RN.div(4.3,1.1) => 3.9090909090909
 
+### IF YOU WANT CONTRIBUTE THIS LIBRARY<br/>
+### JOIN https://github.com/ryuhojin/RealNumber.js<br/>
 
 # RealNumber.js
 ---
@@ -52,3 +55,6 @@ RN.add/sub/mul/div(value1, value2)
 - 1.2 - 0.1 => 1.09999999999 / RN.sub(1.2,0.1) => 1.1 / RN.sub(1.2,1) => 0.2
 - 1.35 * 1.1 => 1.4850000000003 / RN.mul(1.35,1.1) => 1.485
 - 4.3 / 1.1 => 3.909090909090987 / RN.div(4.3,1.1) => 3.9090909090909
+
+### 라이브러리를 발전시켜 나갈 분을 찾습니다.<br/>
+### https://github.com/ryuhojin/RealNumber.js<br/>
