@@ -9,7 +9,7 @@
 > You can calculate up to 6 points after the decimal point.<br/>
 ---
 ### HOW TO USE
-> #### import EN from 'extendnumber'
+> #### ~~~ import EN from 'extendnumber'
 ~~~javascript
 EN.add(value1,value2)
 EN.sub(value1,value2)
