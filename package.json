@@ -1,6 +1,6 @@
 {
   "name": "extendnumber",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Use it when you want to perform integer and real number",
   "main": "ExtendNumber.js",
   "repository": {
