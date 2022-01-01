@@ -10,6 +10,7 @@
 ---
 ### HOW TO USE
 > #### import EN from 'extendnumber'
+> ~~~ javascript
 - EN.add(value1,value2)
 - EN.sub(value1,value2)
 - EN.div(value1,value2)
@@ -17,6 +18,7 @@
 - EN.floor(value) / EN.floor(value,decimal point)
 - EN.round(value) / EN.round(value,decimal point)
 - EN.ceil(value) / EN.ceil(value,decimal point)
+- ~~~
 ---
 #### Before -> After ExtendNumber.js
 EN.floor/ceil/round(value,pointPosition)
