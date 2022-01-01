@@ -8,8 +8,11 @@
 > You can use this library IE11, Chrome, Firefox, Edge.<br/>
 > You can calculate up to 6 points after the decimal point.<br/>
 ---
+### HOW TO IMPORT
+~~~javascript 
+import EN from 'extendnumber'
+~~~
 ### HOW TO USE
-> #### ~~~ import EN from 'extendnumber'
 ~~~javascript
 EN.add(value1,value2)
 EN.sub(value1,value2)
@@ -44,15 +47,20 @@ EN.add/sub/mul/div(value1, value2)
 > 해당 라이브러리를 통해서 정수 및 실수의 덧셈, 뺄셈, 곱셈, 나눗셈 연산을 정확하게 수행하세요.<br/>
 > 해당 라이브러리는 IE11, Edge, Chrome, FireFox 까지 크로스 브라우징을 지원합니다.<br/>
 ---
-### HOW TO USE
-> #### import EN from 'extendnumber'
-- EN.add(value1,value2)
-- EN.sub(value1,value2)
-- EN.div(value1,value2)
-- EN.mul(value1,value2)
-- EN.floor(value) / EN.floor(value,decimal point)
-- EN.round(value) / EN.round(value,decimal point)
-- EN.ceil(value) / EN.ceil(value,decimal point)
+### 내 프로젝트에 추가하기
+~~~javascript 
+import EN from 'extendnumber'
+~~~
+### 사용법
+~~~javascript
+EN.add(value1,value2)
+EN.sub(value1,value2)
+EN.div(value1,value2)
+EN.mul(value1,value2)
+EN.floor(value) / EN.floor(value,decimal point)
+EN.round(value) / EN.round(value,decimal point)
+EN.ceil(value) / EN.ceil(value,decimal point)
+~~~
 ---
 #### Before -> After ExtendNumber.js
 EN.floor/ceil/round(value,pointPosition)
